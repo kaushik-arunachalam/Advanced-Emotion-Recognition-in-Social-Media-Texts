@@ -1,0 +1,7 @@
+layer,node,message,alpha
+1,phrase,tweet→phrase,0.014336039312183857
+1,phrase,emotion→phrase,0.985663890838623
+2,phrase,tweet→phrase,0.01479322463274002
+2,phrase,emotion→phrase,0.9852067828178406
+3,phrase,tweet→phrase,0.49832862615585327
+3,phrase,emotion→phrase,0.501671314239502

@@ -1,0 +1,13 @@
+torch
+torch_geometric
+transformers
+datasets
+numpy
+pandas
+scipy
+scikit-learn
+networkx
+matplotlib
+seaborn
+jupyter
+peft

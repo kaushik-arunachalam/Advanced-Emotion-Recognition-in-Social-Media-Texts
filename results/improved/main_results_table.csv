@@ -1,0 +1,58 @@
+dataset,setting,model,acc_C,acc_NC,acc_T,f1_C,f1_NC,f1_T,macroF1_T
+GoEmotions,0 Baselines (raw),DistilRoBERTa,0.714,0.387,0.625,0.737,0.464,0.662,0.512
+GoEmotions,0 Baselines (raw),RoBERTa-large,0.714,0.356,0.616,0.737,0.424,0.652,0.51
+GoEmotions,0 Baselines (raw),DistilRoBERTa-v2 (Friends-tuned),0.704,0.556,0.664,0.718,0.6,0.684,0.467
+GoEmotions,0 Baselines (raw),Score average,0.714,0.458,0.644,0.737,0.528,0.678,0.532
+GoEmotions,0 Baselines (raw),Rule: disagree → neutral,0.714,0.759,0.726,0.737,0.655,0.74,0.575
+GoEmotions,0 Baselines (raw),Paper HGNN-Max (3A replication),0.714,0.538,0.666,0.737,0.567,0.696,0.514
+GoEmotions,0 Baselines (raw),Paper HGNN-Min (3A replication),0.714,0.401,0.629,0.738,0.476,0.665,0.516
+Friends,0 Baselines (raw),DistilRoBERTa,0.721,0.31,0.607,0.729,0.355,0.627,0.466
+Friends,0 Baselines (raw),RoBERTa-large,0.721,0.464,0.65,0.729,0.491,0.663,0.515
+Friends,0 Baselines (raw),DistilRoBERTa-v2 (Friends-tuned),0.876,0.838,0.866,0.876,0.837,0.865,0.775
+Friends,0 Baselines (raw),Score average,0.721,0.506,0.661,0.729,0.537,0.674,0.521
+Friends,0 Baselines (raw),Rule: disagree → neutral,0.721,0.56,0.676,0.729,0.402,0.666,0.497
+Friends,0 Baselines (raw),Paper HGNN-Max (3A replication),0.721,0.411,0.635,0.729,0.373,0.644,0.454
+Friends,0 Baselines (raw),Paper HGNN-Min (3A replication),0.72,0.326,0.61,0.729,0.373,0.63,0.465
+TEC,0 Baselines (raw),DistilRoBERTa,0.428,0.145,0.335,0.48,0.177,0.392,0.313
+TEC,0 Baselines (raw),RoBERTa-large,0.428,0.318,0.392,0.48,0.349,0.437,0.342
+TEC,0 Baselines (raw),DistilRoBERTa-v2 (Friends-tuned),0.314,0.161,0.263,0.371,0.205,0.321,0.248
+TEC,0 Baselines (raw),Score average,0.428,0.258,0.372,0.48,0.304,0.425,0.338
+TEC,0 Baselines (raw),Rule: disagree → neutral,0.428,0.0,0.287,0.48,0.0,0.375,0.306
+TEC,0 Baselines (raw),Paper HGNN-Max (3A replication),0.429,0.356,0.405,0.481,0.293,0.432,0.324
+TEC,0 Baselines (raw),Paper HGNN-Min (3A replication),0.428,0.154,0.337,0.48,0.185,0.393,0.314
+GoEmotions,A label-free,RoBERTa-large + alignment,0.714,0.356,0.616,0.737,0.424,0.652,0.51
+GoEmotions,A label-free,Score average + alignment,0.714,0.458,0.644,0.737,0.528,0.678,0.532
+GoEmotions,A label-free,Score average + alignment + smoothing,0.701,0.306,0.593,0.725,0.348,0.628,0.501
+GoEmotions,A label-free,DA-HGNN (label-free),0.714 ± 0.0,0.456 ± 0.002,0.644 ± 0.001,0.737 ± 0.0,0.527 ± 0.002,0.678 ± 0.0,0.533 ± 0.001
+GoEmotions,A label-free,DA-HGNN (label-free) ⊕ teacher,0.713 ± 0.0,0.416 ± 0.001,0.632 ± 0.0,0.736 ± 0.0,0.484 ± 0.001,0.667 ± 0.0,0.526 ± 0.0
+Friends,A label-free,RoBERTa-large + alignment,0.721,0.464,0.65,0.729,0.491,0.663,0.515
+Friends,A label-free,Score average + alignment,0.721,0.506,0.661,0.729,0.537,0.674,0.521
+Friends,A label-free,Score average + alignment + smoothing,0.715,0.466,0.646,0.724,0.497,0.661,0.511
+Friends,A label-free,DA-HGNN (label-free),0.721 ± 0.0,0.496 ± 0.002,0.658 ± 0.001,0.729 ± 0.0,0.527 ± 0.002,0.671 ± 0.001,0.519 ± 0.002
+Friends,A label-free,DA-HGNN (label-free) ⊕ teacher,0.72 ± 0.0,0.492 ± 0.003,0.657 ± 0.001,0.729 ± 0.0,0.524 ± 0.002,0.67 ± 0.001,0.519 ± 0.002
+TEC,A label-free,RoBERTa-large + alignment,0.494,0.365,0.452,0.505,0.373,0.462,0.411
+TEC,A label-free,Score average + alignment,0.492,0.352,0.446,0.503,0.36,0.457,0.41
+TEC,A label-free,Score average + alignment + smoothing,0.495,0.366,0.452,0.506,0.377,0.464,0.416
+TEC,A label-free,DA-HGNN (label-free),0.492 ± 0.0,0.36 ± 0.001,0.448 ± 0.001,0.503 ± 0.0,0.366 ± 0.001,0.459 ± 0.001,0.415 ± 0.0
+TEC,A label-free,DA-HGNN (label-free) ⊕ teacher,0.493 ± 0.0,0.363 ± 0.001,0.45 ± 0.0,0.505 ± 0.0,0.37 ± 0.0,0.461 ± 0.0,0.416 ± 0.0
+GoEmotions,B few labels,RoBERTa-large + calibration,0.803 ± 0.005,0.755 ± 0.005,0.79 ± 0.005,0.8 ± 0.003,0.679 ± 0.014,0.779 ± 0.003,0.595 ± 0.01
+GoEmotions,B few labels,Score average + calibration,0.809 ± 0.006,0.762 ± 0.003,0.796 ± 0.004,0.807 ± 0.004,0.689 ± 0.013,0.787 ± 0.004,0.612 ± 0.011
+GoEmotions,B few labels,Score average + calibration + smoothing,0.795 ± 0.011,0.754 ± 0.009,0.784 ± 0.01,0.8 ± 0.008,0.708 ± 0.009,0.784 ± 0.005,0.62 ± 0.004
+GoEmotions,B few labels,Supervised MLP (N labels only),0.768 ± 0.036,0.749 ± 0.009,0.763 ± 0.024,0.729 ± 0.075,0.694 ± 0.027,0.723 ± 0.062,0.394 ± 0.146
+GoEmotions,B few labels,"MLP semi (distillation + N labels, no graph)",0.773 ± 0.008,0.702 ± 0.031,0.754 ± 0.014,0.768 ± 0.015,0.688 ± 0.014,0.748 ± 0.013,0.507 ± 0.062
+GoEmotions,B few labels,DA-HGNN semi,0.798 ± 0.009,0.747 ± 0.016,0.784 ± 0.01,0.797 ± 0.007,0.709 ± 0.006,0.778 ± 0.007,0.594 ± 0.016
+GoEmotions,B few labels,DA-HGNN-F (proposed),0.801 ± 0.011,0.755 ± 0.011,0.788 ± 0.011,0.803 ± 0.006,0.712 ± 0.006,0.785 ± 0.005,0.615 ± 0.007
+Friends,B few labels,RoBERTa-large + calibration,0.752 ± 0.004,0.629 ± 0.003,0.718 ± 0.002,0.743 ± 0.006,0.584 ± 0.005,0.703 ± 0.003,0.522 ± 0.004
+Friends,B few labels,Score average + calibration,0.751 ± 0.002,0.633 ± 0.003,0.718 ± 0.002,0.743 ± 0.004,0.582 ± 0.006,0.703 ± 0.003,0.513 ± 0.006
+Friends,B few labels,Score average + calibration + smoothing,0.749 ± 0.001,0.632 ± 0.003,0.716 ± 0.001,0.746 ± 0.002,0.601 ± 0.003,0.709 ± 0.002,0.533 ± 0.006
+Friends,B few labels,Supervised MLP (N labels only),0.746 ± 0.014,0.626 ± 0.008,0.713 ± 0.011,0.726 ± 0.035,0.589 ± 0.027,0.689 ± 0.033,0.438 ± 0.083
+Friends,B few labels,"MLP semi (distillation + N labels, no graph)",0.743 ± 0.01,0.606 ± 0.015,0.705 ± 0.011,0.735 ± 0.025,0.583 ± 0.032,0.693 ± 0.028,0.475 ± 0.088
+Friends,B few labels,DA-HGNN semi,0.741 ± 0.003,0.61 ± 0.019,0.705 ± 0.008,0.744 ± 0.004,0.6 ± 0.015,0.706 ± 0.007,0.532 ± 0.011
+Friends,B few labels,DA-HGNN-F (proposed),0.75 ± 0.001,0.638 ± 0.008,0.719 ± 0.003,0.752 ± 0.001,0.616 ± 0.006,0.717 ± 0.002,0.544 ± 0.002
+TEC,B few labels,RoBERTa-large + calibration,0.52 ± 0.002,0.411 ± 0.021,0.484 ± 0.007,0.507 ± 0.005,0.37 ± 0.029,0.466 ± 0.006,0.402 ± 0.007
+TEC,B few labels,Score average + calibration,0.518 ± 0.002,0.404 ± 0.018,0.48 ± 0.006,0.504 ± 0.006,0.354 ± 0.024,0.46 ± 0.004,0.392 ± 0.006
+TEC,B few labels,Score average + calibration + smoothing,0.519 ± 0.002,0.408 ± 0.007,0.482 ± 0.002,0.509 ± 0.005,0.376 ± 0.008,0.468 ± 0.004,0.408 ± 0.005
+TEC,B few labels,Supervised MLP (N labels only),0.567 ± 0.006,0.477 ± 0.008,0.537 ± 0.006,0.562 ± 0.011,0.47 ± 0.012,0.532 ± 0.01,0.457 ± 0.012
+TEC,B few labels,"MLP semi (distillation + N labels, no graph)",0.532 ± 0.009,0.43 ± 0.016,0.499 ± 0.011,0.537 ± 0.014,0.433 ± 0.021,0.503 ± 0.016,0.441 ± 0.013
+TEC,B few labels,DA-HGNN semi,0.545 ± 0.005,0.455 ± 0.011,0.515 ± 0.007,0.552 ± 0.005,0.459 ± 0.011,0.522 ± 0.007,0.457 ± 0.006
+TEC,B few labels,DA-HGNN-F (proposed),0.545 ± 0.005,0.459 ± 0.013,0.517 ± 0.007,0.549 ± 0.004,0.454 ± 0.011,0.518 ± 0.006,0.454 ± 0.006
