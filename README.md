@@ -1,7 +1,5 @@
 # Advanced Emotion Recognition in Social Media Texts
 
-**ML Capstone Project — M A Kaushik (CH.SC.U4CSE24123), PSID 181**
-
 Replication and improvement of the base paper:
 
 > Maazallahi, A., Asadpour, M., & Bazmi, P. (2025). *Advancing emotion recognition in social media: A novel integration of heterogeneous neural networks with fine-tuned language models.* Information Processing & Management, 62, 103974.
